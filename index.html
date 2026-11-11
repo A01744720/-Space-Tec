@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08172d">
+  <meta name="description" content="SPACE TEC: soñamos en grande, diseñamos el futuro y nos atrevemos a despegar.">
+  <title>SPACE TEC — Próximo lanzamiento</title>
+  <link rel="icon" type="image/png" href="assets/logo-principal.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="space-noise" aria-hidden="true"></div>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="orbit orbit-one" aria-hidden="true"></div>
+  <div class="orbit orbit-two" aria-hidden="true"></div>
+
+  <div class="floating-rocket rocket-a" aria-hidden="true">🚀</div>
+  <div class="floating-rocket rocket-b" aria-hidden="true">🚀</div>
+  <div class="floating-rocket rocket-c" aria-hidden="true">🚀</div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="SPACE TEC, inicio">
+      <img src="assets/logo-horizontal.png" alt="SPACE TEC">
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#mision">Nuestra misión</a>
+      <a href="#lanzamiento">Lanzamiento</a>
+      <a href="#equipo">El equipo</a>
+    </nav>
+    <a class="header-cta" href="#lanzamiento">Ver cuenta regresiva <span>↗</span></a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> MISIÓN EN PREPARACIÓN <span class="eyebrow-line"></span> 2026</div>
+        <h1>EL FUTURO NO<br>SE <span class="gradient-word">ESPERA.</span><br>SE <span class="outline-word">LANZA.</span></h1>
+        <p class="hero-subtitle">De una idea nace una misión. De la pasión, el impulso. Y de nuestro equipo, el siguiente gran despegue.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#lanzamiento">Prepárate para despegar <span>↗</span></a>
+          <a class="text-link" href="#mision">Conoce nuestra misión <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>01</strong><span>VISIÓN</span></div>
+          <i></i>
+          <div><strong>∞</strong><span>POSIBILIDADES</span></div>
+          <i></i>
+          <div><strong>1</strong><span>SOLO EQUIPO</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-glow"></div>
+        <div class="planet-ring ring-back"></div>
+        <div class="planet">
+          <div class="planet-shine"></div>
+          <span class="planet-crater crater-one"></span>
+          <span class="planet-crater crater-two"></span>
+          <span class="planet-crater crater-three"></span>
+        </div>
+        <div class="hero-rocket-wrap">
+          <img src="assets/logo-principal.png" alt="Cohete emblema de SPACE TEC" class="hero-logo">
+        </div>
+        <div class="orbit-label label-top">INNOVACIÓN <span>✦</span></div>
+        <div class="orbit-label label-bottom">RUMBO A LO EXTRAORDINARIO</div>
+        <div class="coordinate coord-one">25° 40' N<br>100° 18' O</div>
+        <div class="coordinate coord-two">ST—2026 / MISSION 01</div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div><div class="spark spark-three">✦</div>
+      </div>
+      <div class="scroll-cue"><span></span> DESLIZA PARA EXPLORAR</div>
+    </section>
+
+    <section class="mission-section" id="mision">
+      <div class="section-kicker">01 / NUESTRA FILOSOFÍA</div>
+      <div class="mission-grid">
+        <h2>NO HAY LÍMITES<br>PARA QUIENES<br><span>SE ATREVEN.</span></h2>
+        <div class="mission-text">
+          <p class="big-quote">“El espacio no es el límite. Es el comienzo de todo lo que podemos imaginar.”</p>
+          <p>En SPACE TEC convertimos curiosidad en creatividad, ideas en proyectos y retos en oportunidades. Somos un equipo que mira hacia adelante, aprende en cada etapa y trabaja unido para alcanzar nuevas alturas.</p>
+          <div class="mission-signature"><span class="signature-line"></span> PENSAR. CREAR. DESPEGAR.</div>
+        </div>
+      </div>
+      <div class="values-row">
+        <article class="value-card"><span class="value-number">01</span><div class="value-icon">✦</div><h3>Imaginación</h3><p>Nos atrevemos a pensar más allá de lo conocido.</p></article>
+        <article class="value-card"><span class="value-number">02</span><div class="value-icon">⌁</div><h3>Ingenio</h3><p>Transformamos cada desafío en aprendizaje.</p></article>
+        <article class="value-card"><span class="value-number">03</span><div class="value-icon">↗</div><h3>Equipo</h3><p>Avanzamos juntos, con una misma dirección.</p></article>
+      </div>
+    </section>
+
+    <section class="countdown-section" id="lanzamiento">
+      <div class="countdown-stars" aria-hidden="true"></div>
+      <div class="section-kicker">02 / MARCA LA FECHA</div>
+      <div class="countdown-heading">
+        <div><span class="pre-title">EL SIGUIENTE CAPÍTULO COMIENZA EN</span><h2>MENOS DE LO QUE<br><span>IMAGINAS.</span></h2></div>
+        <div class="launch-stamp"><span>SPACE TEC</span><strong>LAUNCH<br>WINDOW</strong><small>30 · NOV · 2026</small></div>
+      </div>
+      <div class="countdown-frame">
+        <div class="countdown-top"><span><span class="live-dot"></span> CUENTA REGRESIVA OFICIAL</span><span id="countdown-status">SISTEMAS EN ESPERA</span></div>
+        <div class="timer" role="timer" aria-live="off">
+          <div class="time-unit"><strong id="days">000</strong><span>DÍAS</span></div><b class="time-colon">:</b>
+          <div class="time-unit"><strong id="hours">00</strong><span>HORAS</span></div><b class="time-colon">:</b>
+          <div class="time-unit"><strong id="minutes">00</strong><span>MINUTOS</span></div><b class="time-colon">:</b>
+          <div class="time-unit"><strong id="seconds">00</strong><span>SEGUNDOS</span></div>
+        </div>
+        <div class="countdown-bottom"><span>DESTINO: NUEVAS ALTURAS</span><span id="launch-date">30 NOVIEMBRE 2026 · 23:59 (HORA DE SONORA)</span></div>
+      </div>
+      <div class="sound-row">
+        <div class="sound-copy"><span class="sound-icon">♫</span><div><strong>Audio de misión</strong><small>Activa el sonido para escuchar los últimos 10 segundos.</small></div></div>
+        <button id="sound-toggle" class="sound-button" type="button" aria-pressed="false"><span class="sound-indicator"></span><span id="sound-label">ACTIVAR SONIDO</span></button>
+      </div>
+      <p class="countdown-note">El audio solo se reproduce después de que lo actives. Puedes silenciarlo en cualquier momento.</p>
+    </section>
+
+    <section class="team-section" id="equipo">
+      <div class="section-kicker">03 / IDENTIDAD DE MISIÓN</div>
+      <div class="team-content">
+        <div class="team-logo-card"><img src="assets/logo-principal.png" alt="Emblema oficial SPACE TEC"><span>UN EQUIPO. UNA MISIÓN. INFINITAS POSIBILIDADES.</span></div>
+        <div class="team-copy"><span class="pre-title">SOMOS SPACE TEC</span><h2>EL DESPEGUE<br><span>ES SOLO EL INICIO.</span></h2><p>Las grandes misiones comienzan con personas que creen que pueden hacer algo extraordinario. Hoy nuestra mirada está puesta en el horizonte; mañana, en todo lo que seremos capaces de lograr.</p><a class="button button-outline" href="#inicio">Volver al inicio ↑</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a href="#inicio" class="footer-brand">SPACE TEC<span>®</span></a><span>HECHO PARA LLEGAR MÁS LEJOS.</span><span>© 2026 SPACE TEC</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
