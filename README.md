@@ -27,3 +27,10 @@ Los navegadores bloquean el audio automático. Por eso el botón **ACTIVAR SONID
 - No requiere instalación, frameworks ni compilación.
 - Usa Google Fonts; si no hay conexión, se muestran fuentes alternativas.
 - El sitio respeta la paleta SPACE TEC: azul espacial `#14243B`, dorado `#D7B568` y naranja `#F16B2F`.
+
+
+## IMPORTANTE: imágenes en GitHub Pages
+Esta versión coloca también los tres PNG en la raíz del repositorio y el HTML los llama
+con rutas `./nombre-del-archivo.png`. Al subir el sitio, selecciona **todos** los archivos
+del ZIP y súbelos a la raíz del repositorio (no subas solamente el HTML).
+No cambies los nombres de los PNG; GitHub distingue mayúsculas y minúsculas.
